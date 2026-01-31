@@ -1,6 +1,6 @@
 {
 	"name": "@gta5urban/rage-rpc",
-	"version": "0.3.5",
+	"version": "0.3.6",
 	"publishConfig": {
 		"access": "public"
 	},
@@ -21,6 +21,7 @@
 		"types/*"
 	],
 	"exports": {
+		"types": "./types/index.d.ts",
 		"require": "./dist/rage-rpc.js",
 		"import": "./dist/rage-rpc.esm.mjs"
 	},
